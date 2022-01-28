@@ -1,0 +1,37 @@
+[[package]]
+name = "chromedriver-autoinstaller"
+version = "0.3.1"
+requires_python = ">=3.6"
+summary = "Automatically install chromedriver that supports the currently installed version of chrome."
+
+[[package]]
+name = "selenium"
+version = "3.141.0"
+summary = "Python bindings for Selenium"
+dependencies = [
+    "urllib3",
+]
+
+[[package]]
+name = "urllib3"
+version = "1.26.8"
+requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
+summary = "HTTP library with thread-safe connection pooling, file post, and more."
+
+[metadata]
+lock_version = "3.1"
+content_hash = "sha256:f8847b3cea9920b988f63f4fcb11b21643569cd75d98444cb941091115b8d6c0"
+
+[metadata.files]
+"chromedriver-autoinstaller 0.3.1" = [
+    {file = "chromedriver_autoinstaller-0.3.1-py3-none-any.whl", hash = "sha256:d2d934fed5a8c27352e279c8c398ecbc570f5aebb4a877add05dc4703ce91bc8"},
+    {file = "chromedriver-autoinstaller-0.3.1.tar.gz", hash = "sha256:7bafc2c1730fc044d078a9e2e31c59c8015077c7e4de3903f7f14693af03bfbe"},
+]
+"selenium 3.141.0" = [
+    {file = "selenium-3.141.0-py2.py3-none-any.whl", hash = "sha256:2d7131d7bc5a5b99a2d9b04aaf2612c411b03b8ca1b1ee8d3de5845a9be2cb3c"},
+    {file = "selenium-3.141.0.tar.gz", hash = "sha256:deaf32b60ad91a4611b98d8002757f29e6f2c2d5fcaf202e1c9ad06d6772300d"},
+]
+"urllib3 1.26.8" = [
+    {file = "urllib3-1.26.8-py2.py3-none-any.whl", hash = "sha256:000ca7f471a233c2251c6c7023ee85305721bfdf18621ebff4fd17a8653427ed"},
+    {file = "urllib3-1.26.8.tar.gz", hash = "sha256:0e7c33d9a63e7ddfcb86780aac87befc2fbddf46c58dbb487e0855f7ceec283c"},
+]
